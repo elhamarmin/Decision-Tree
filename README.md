@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/694dc2bb-139a-4f58-bb35-4c313bd12a6d)# Decision Tree Projects
+## Decision Tree Projects
 
 
 This repository contains four different decision tree projects that utilize various datasets to showcase the power of decision trees for classification tasks. Each project includes data preprocessing, model training, evaluation, and visualization.
