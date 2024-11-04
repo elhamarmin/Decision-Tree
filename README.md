@@ -18,9 +18,32 @@ This repository contains four different decision tree projects that utilize vari
 - **Model**: Decision Tree Classifier (`max_depth=3`).
 - **Visualization**: Tree shows decision splits based on petal length, separating setosa effectively.
 
+## 1. Iris Flower Classification
+**Overview**: This project classifies Iris flower species (setosa, versicolor, and virginica) using sepal and petal measurements with a decision tree model.
+
+### Key Points
+- **Dataset**: Iris dataset from scikit-learn.
+- **Features Used**: Sepal length, sepal width, petal length, and petal width.
+- **Model**: Decision Tree Classifier (`max_depth=3`).
+- **Visualization**: The decision tree visual clearly shows how the model splits data based on petal and sepal measurements.
+
 ### Results
-- Model achieved an accuracy of **X%** on the test set.
-- Visual representation highlights feature importance and decision logic.
+- **Model Accuracy**: The decision tree achieved a perfect accuracy of **100%** on the test set (`clf.score(test_x, test_lab) = 1.0`), indicating it classified all test samples correctly.
+- **Decision Tree Visualization**:
+  - The first split is based on `petal length (cm) <= 2.45`, effectively separating setosa from the other species.
+  - Subsequent splits are based on `petal length` and `petal width`, further distinguishing between versicolor and virginica.
+
+![Decision Tree Visualization](https://github.com/user-attachments/assets/40054b3f-82a9-40d3-b163-d702cf171a0a)
+
+
+### Interpretation
+- The decision tree indicates that `petal length` is the most significant feature for the first level of classification.
+- Gini impurity and sample distributions at each node help interpret the purity of splits, with terminal nodes (leaves) showing pure classifications (Gini = 0).
+
+### Code Reference
+Refer to the Python script or Jupyter notebook in the repository for full code details, including data loading, preprocessing, model training, and visualization.
+
+
 
 ---
 
