@@ -33,9 +33,6 @@ This repository contains four different decision tree projects that utilize vari
 - The decision tree indicates that `petal length` is the most significant feature for the first level of classification.
 - Gini impurity and sample distributions at each node help interpret the purity of splits, with terminal nodes (leaves) showing pure classifications (Gini = 0).
 
-### Code Reference
-Refer to the Python script or Jupyter notebook in the repository for full code details, including data loading, preprocessing, model training, and visualization.
-
 
 
 ---
@@ -70,9 +67,6 @@ Refer to the Python script or Jupyter notebook in the repository for full code d
 - The decision tree reveals that `Glucose` and `BMI` are critical features in diabetes diagnosis.
 - The improvement in accuracy when using `criterion="entropy"` and limiting tree depth helps reduce overfitting and enhances generalizability.
 
-### Code Reference
-Refer to the project code for detailed steps on data preparation, training, and evaluation, including the creation of visualizations.
-
 
 
 
@@ -100,8 +94,6 @@ Refer to the project code for detailed steps on data preparation, training, and 
 - The decision tree model shows high accuracy on both training and test data, indicating effective learning with minimal overfitting.
 - The use of the `entropy` criterion emphasizes the most informative feature splits, leading to deeper insights into feature importance.
 
-### Code Reference
-Refer to the project code for data loading, model training, and evaluation steps, along with the visualization generation.
 
 
 ---
@@ -128,8 +120,6 @@ Refer to the project code for data loading, model training, and evaluation steps
 ### Data Distribution
 - The dataset's distribution can be examined to understand the balance of features and outcomes.
 
-### Code Reference
-Check the project code for complete steps on data preprocessing, model training, evaluation, and generating the tree visualization.
 
 
 ---
